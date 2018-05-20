@@ -36,3 +36,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;   
 }
+
+.button > .moviet {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
