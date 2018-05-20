@@ -17,8 +17,8 @@ class Movie extends Component {
                     <div className="moviet">{data.title}</div>
                     <p>Release date: {data.release_date}</p>
                     <p>TMDB score: {data.vote_average}</p>
-                    <p onClick={() => this.props.showModal(data.id)}>More info</p>
-                    <p>Add to watchlist</p>
+                    <button className="button" onClick={() => this.props.showModal(data.id)}>More info</button>
+                    <button className="button">Add to watchlist</button>
                 </div>
             </div>
         );
